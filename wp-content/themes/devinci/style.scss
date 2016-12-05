@@ -1,0 +1,106 @@
+
+/*
+Theme Name: Devinci
+Author: TeamDevinci
+Version: 1.0
+Text Domain: Devinci
+ */
+
+/*General*/
+html, body, #body{
+  overflow-x: hidden !important;
+  margin-top: 0px !important;
+  top: 0px !important; }
+
+/*Header*/
+
+
+.brand-logo  {
+  left: 2em;
+  position: relative;
+  img
+  {
+    max-height: 2em;
+  }
+}
+
+/*Accueil*/
+#accueil {
+  p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    text-align: justify;
+  }
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 6em;
+  }
+  #scroller {
+    width: 100%;
+    z-index: 50;
+    .zone {
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 40em;
+      bottom: 0;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      position: relative;
+    }
+    li {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      position: absolute;
+    }
+    img {
+      position: relative;
+      z-index: 50;
+      max-height: 20em;
+      max-width: 20em;
+      margin-left: 6em;
+      margin-right: 6em;
+    }
+  }
+}
+/*Association*/
+/*Stage*/
+#stage {
+  .contain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    text-align: center;
+  }
+
+  .row .col {
+    float: none;
+  }
+}
+/*Article*/
+#article {
+  .contain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    text-align: center;
+  }
+
+  .row .col {
+    float: none;
+  }
+}
+
+/*Alumni*/
+
