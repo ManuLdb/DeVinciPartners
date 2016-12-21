@@ -1,6 +1,6 @@
 <div class="clear"></div>
 </div>
-<footer id="footer" role="contentinfo">
+<footer id="footer">
 </footer>
 </div>
 <?php wp_footer(); ?>

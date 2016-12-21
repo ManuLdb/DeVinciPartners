@@ -4,56 +4,124 @@ Author: TeamDevinci
 Version: 1.0
 Text Domain: Devinci
  */
+/*Color*/
 /*General*/
 html, body, #body {
   overflow-x: hidden !important;
   margin-top: 0px !important;
   top: 0px !important; }
 
-/*Header*/
-.brand-logo {
-  left: 2em;
-  position: relative; }
-  .brand-logo img {
-    max-height: 2em; }
+.row {
+  margin-bottom: 0px !important; }
 
-/*Accueil*/
-#accueil p {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-  text-align: justify; }
-#accueil h2 {
-  text-align: center;
-  font-size: 50px;
-  padding-top: 6em; }
-#accueil #scroller {
-  width: 100%;
-  z-index: 50; }
-  #accueil #scroller .zone {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 40em;
-    bottom: 0; }
-  #accueil #scroller ul {
-    padding: 0;
-    margin: 0;
-    position: relative; }
-  #accueil #scroller li {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    position: absolute; }
-  #accueil #scroller img {
+/*Header*/
+nav {
+  background-color: black; }
+  nav .brand-logo {
+    display: inline-flex;
     position: relative;
-    z-index: 50;
-    max-height: 20em;
+    margin-left: 10%;
+    left: 2em; }
+    nav .brand-logo img {
+      max-height: 2em; }
+    nav .brand-logo span {
+      margin-left: 1em; }
+  nav ul {
+    margin-right: 10%; }
+
+#sidenav-overlay {
+  z-index: 996 !important; }
+
+/*Header Media*/
+@media only screen and (max-width: 1450px) and (min-width: 1201px) {
+  nav ul {
+    margin-right: 5% !important; }
+  nav .brand-logo {
+    margin-left: 5%; }
+    nav .brand-logo span {
+      font-size: 30px; } }
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+  nav ul {
+    margin-right: 2% !important; }
+  nav .brand-logo {
+    margin-left: 2%; }
+    nav .brand-logo span {
+      font-size: 20px; } }
+@media only screen and (max-width: 992px) {
+  nav {
+    min-height: 5em; }
+    nav .brand-logo {
+      left: 50%;
+      margin-left: 1%; }
+      nav .brand-logo span {
+        font-size: 13px; } }
+/*Accueil*/
+#accueil .section1 {
+  background: url("img/accueil.jpg");
+  z-index: 1;
+  position: relative;
+  top: -3em;
+  min-height: 30em; }
+  #accueil .section1 .ombreaccueil {
+    background-color: black;
+    z-index: 2;
+    opacity: 0.8; }
+  #accueil .section1 .contain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; }
+    #accueil .section1 .contain h1 {
+      color: white;
+      max-width: 50%;
+      padding-top: 2em; }
+    #accueil .section1 .contain p {
+      color: white;
+      max-width: 50%; }
+    #accueil .section1 .contain .waves-effect {
+      background-color: #a52522;
+      max-width: 20em;
+      border-radius: 6px;
+      margin-bottom: 5em; }
+#accueil .section2 {
+  background-color: white; }
+  #accueil .section2 h2 {
+    text-align: center;
+    font-size: 50px; }
+  #accueil .section2 p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    padding-top: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 20px #D9D9D9; }
+  #accueil .section2 .waves-effect {
+    background-color: #0c2e51;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 20em;
-    margin-left: 6em;
-    margin-right: 6em; }
+    border-radius: 6px;
+    margin-top: 5em;
+    margin-bottom: 8em; }
+#accueil .section3 {
+  background-color: #0c2e51;
+  min-height: 65em; }
+  #accueil .section3 h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 21em;
+    padding-bottom: 2em; }
+  #accueil .section3 .partenaire {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em; }
+    #accueil .section3 .partenaire img {
+      margin-left: 2em;
+      margin-right: 2em;
+      max-height: 5em; }
 
 /*Association*/
 /*Stage*/
@@ -77,5 +145,39 @@ html, body, #body {
   float: none; }
 
 /*Alumni*/
+/*MediaAccueil*/
+@media only screen and (max-width: 999px) and (min-width: 602px) {
+  #accueil .section2 h2 {
+    font-size: 40px; }
+  #accueil .section2 p {
+    max-width: 80%; }
+  #accueil .section3 .partenaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0em; }
+    #accueil .section3 .partenaire img {
+      min-height: 8em !important;
+      max-height: 8em !important;
+      max-width: 100%; } }
+@media only screen and (max-width: 601px) {
+  #accueil .section2 {
+    background-color: white; }
+    #accueil .section2 h2 {
+      font-size: 30px; }
+    #accueil .section2 p {
+      max-width: 100%; }
+  #accueil .section3 h3 {
+    font-size: 25px;
+    padding-top: 40em; }
+  #accueil .section3 .partenaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0em; }
+    #accueil .section3 .partenaire img {
+      min-height: 6em !important;
+      max-height: 6em !important;
+      max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,35 +24,37 @@
     </ul>
 
     <!-- Navbar -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="accueil" class="brand-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"  class="img-responsive" alt="Logo"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="accueil" class="brand-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"  class="img-responsive" alt="Logo"><span>DEVINCI PARTNERS</span></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
-            <!-- PC -->
-            <ul class="right hide-on-med-and-down">
-                <li><a href="stage">Stage</a></li>
-                <li><a href="association">DeVinci Partners</a></li>
-                <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="alumni">Alumni</a></li>
-                <li><a href="article">Article</a></li>
-                <li><a href="#">Nous rejoindre</a></li>
+                <!-- PC -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="stage">Stage</a></li>
+                    <li><a href="association">DeVinci Partners</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="alumni">Alumni</a></li>
+                    <li><a href="article">Article</a></li>
+                    <li><a href="#">Nous rejoindre</a></li>
 
 
-            </ul>
-            <!-- Mobile -->
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-                <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
+                </ul>
+                <!-- Mobile -->
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
 
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </div>
 
 
 </header>
