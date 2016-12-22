@@ -16,7 +16,7 @@ html, body, #body {
 
 /*Header*/
 nav {
-  background-color: black; }
+  background-color: #151515; }
   nav .brand-logo {
     display: inline-flex;
     position: relative;
@@ -55,6 +55,18 @@ nav {
       margin-left: 1%; }
       nav .brand-logo span {
         font-size: 13px; } }
+/*Footer*/
+#footer {
+  background-color: #151515;
+  min-height: 3em; }
+  #footer ul {
+    min-width: 100%;
+    display: inline-block; }
+    #footer ul li a {
+      text-align: center;
+      color: white;
+      display: block; }
+
 /*Accueil*/
 #accueil .section1 {
   background: url("img/accueil.jpg");
@@ -147,6 +159,20 @@ nav {
 /*Alumni*/
 /*MediaAccueil*/
 @media only screen and (max-width: 999px) and (min-width: 602px) {
+  #accueil .section1 .contain {
+    max-width: 50%; }
+    #accueil .section1 .contain h1 {
+      font-size: 45px !important;
+      max-width: 70%;
+      padding-top: 2em; }
+    #accueil .section1 .contain p {
+      color: white;
+      max-width: 70%; }
+    #accueil .section1 .contain .waves-effect {
+      background-color: #a52522;
+      max-width: 20em;
+      border-radius: 6px;
+      margin-bottom: 5em; }
   #accueil .section2 h2 {
     font-size: 40px; }
   #accueil .section2 p {
@@ -161,6 +187,20 @@ nav {
       max-height: 8em !important;
       max-width: 100%; } }
 @media only screen and (max-width: 601px) {
+  #accueil .section1 .contain {
+    max-width: 100%; }
+    #accueil .section1 .contain h1 {
+      font-size: 45px !important;
+      max-width: 100%;
+      padding-top: 2em; }
+    #accueil .section1 .contain p {
+      color: white;
+      max-width: 100%; }
+    #accueil .section1 .contain .waves-effect {
+      background-color: #a52522;
+      max-width: 20em;
+      border-radius: 6px;
+      margin-bottom: 5em; }
   #accueil .section2 {
     background-color: white; }
     #accueil .section2 h2 {

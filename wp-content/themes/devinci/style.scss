@@ -21,7 +21,7 @@ html, body, #body{
 
 /*Header*/
 nav{
-  background-color: black;
+  background-color: #151515;
   .brand-logo  {
     display: inline-flex;
     position: relative;
@@ -84,7 +84,22 @@ nav{
     }
   }
 }
-
+/*Footer*/
+#footer{
+  background-color: #151515;
+  min-height: 3em;
+  ul{
+    min-width: 100%;
+    display: inline-block;
+    li{
+      a{
+        text-align: center;
+        color: white;
+        display: block;
+      }
+    }
+  }
+}
 
 
 /*Accueil*/
@@ -223,7 +238,30 @@ nav{
 /*MediaAccueil*/
 @media only screen and (max-width: 999px) and (min-width: 602px){
   #accueil {
+    .section1{
 
+      .contain{
+        max-width: 50%;
+
+        h1{
+          font-size: 45px !important;
+          max-width: 70%;
+          padding-top: 2em;
+        }
+        p{
+          color: white;
+          max-width: 70%;
+        }
+        //bouton
+        .waves-effect {
+          background-color: $red;
+          max-width: 20em;
+          border-radius: 6px;
+          margin-bottom: 5em;
+
+        }
+      }
+    }
     .section2 {
       h2 {
         font-size: 40px;
@@ -249,7 +287,30 @@ nav{
 }
 @media only screen and (max-width: 601px){
   #accueil {
+    .section1{
 
+      .contain{
+        max-width: 100%;
+
+        h1{
+          font-size: 45px !important;
+          max-width: 100%;
+          padding-top: 2em;
+        }
+        p{
+          color: white;
+          max-width: 100%;
+        }
+        //bouton
+        .waves-effect {
+          background-color: $red;
+          max-width: 20em;
+          border-radius: 6px;
+          margin-bottom: 5em;
+
+        }
+      }
+    }
     .section2 {
       background-color: white;
       h2 {
