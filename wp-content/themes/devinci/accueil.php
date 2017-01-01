@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 <main id="accueil">
     <div class="row">
-        <div class="section1">
+        <section class="section1">
             <div class="ombreaccueil">
                 <div class="contain">
                     <h1>LOREM IPSUM DOLOR SIT AMET</h1>
@@ -17,11 +17,11 @@
                         culpa dignissimos, dolore eius error eum, expedita id labore libero magnam magni molestiae
                         molestias nisi porro recusandae
                     </p>
-                    <a class="waves-effect waves-light btn">CONTACTEZ NOUS</a>
+                    <a class="waves-effect waves-light btn hoverable">CONTACTEZ NOUS</a>
                 </div>
             </div>
-        </div>
-        <div class="section2 col s12 ">
+        </section>
+        <section class="section2 col s12 ">
             <h2> LOREM IPSUM DOLOR SIT AMET</h2>
             <p>
                 Lorem ipsum dolor sit amet,
@@ -44,9 +44,9 @@
                 consectetur adipisicing elit.
             </p>
 
-            <a class="waves-effect waves-light btn">NOTRE ASSOCIATION</a>
-        </div>
-        <div class="section3">
+            <a class="waves-effect waves-light btn hoverable">NOTRE ASSOCIATION</a>
+        </section>
+        <section class="section3">
             <h3>ILS NOUS FONT CONFIANCE </h3>
             <div class="partenaire">
                 <a href=""><img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/elior.png" alt="logo partenaire"></a>
@@ -60,7 +60,7 @@
                 <a href=""><img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/elior.png" alt="logo partenaire"></a>
                 <a href=""><img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/elior.png" alt="logo partenaire"></a>
             </div>
-        </div>
+        </section>
     </div>
 </main>
 <?php get_footer(); ?>

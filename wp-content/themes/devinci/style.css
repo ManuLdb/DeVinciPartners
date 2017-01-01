@@ -69,7 +69,7 @@ nav {
 
 /*Accueil*/
 #accueil .section1 {
-  background: url("img/accueil.jpg");
+  background: url("img/accueil.jpg") fixed;
   z-index: 1;
   position: relative;
   top: -3em;
